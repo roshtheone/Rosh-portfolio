@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshaan Ameer </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Georgia, sans-serif;
+            background: linear-gradient(135deg, #72a1c6, #542067);
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #43607a;
+            text-decoration: underline;
+        }
+        .skill, .job, .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px auto;
+            width: 80%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .skill:hover, .job:hover, .project:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .bar {
+            height: 10px;
+            background: #c0c87a;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roshaan Ameer</h1>
+        <p>Charlotte, NC | <a href="mailto:mameer@charlotte.edu">mameer@charlotte.edu</a> | 
+        <nav> <a href="https://www.linkedin.com/in/roshawns" target="_blank">LinkedIn</a></p>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill"><span>HTML</span><div class="bar" style="width: 100%;"></div></div>
+        <div class="skill"><span>CSS</span><div class="bar" style="width: 79%;"></div></div>
+        <div class="skill"><span>JS</span><div class="bar" style="width: 12%;"></div></div>
+        <div class="skill"><span>Java</span><div class="bar" style="width: 78%;"></div></div>
+        <div class="skill"><span>Python</span><div class="bar" style="width: 83%;"></div></div>
+        <div class="skill"><span>SQL</span><div class="bar" style="width: 86%;"></div></div>
+    </section>
+    
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Cross Tick Crack</h3>
+            <p>HTML, CSS, JavaScript | July 2024 – Aug 2024</p>
+            <p>Developed a two-player interactive game with a dynamic interface.</p>
+        </div>
+        <div class="project">
+            <h3>Advanced Trolling Blocker</h3>
+            <p>HTML, CSS, JavaScript | Oct 2024 – Dec 2024</p>
+            <p>Built a web tool to block harmful content and enhance user safety.</p>
+        </div>
+        
+    </section>
+</body>
+</html>
